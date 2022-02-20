@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.content-body{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-main{
+    width: 380px;
+    height: 420px;
+    background-color: rgb(233, 16, 16);
+    border-radius: 10px;
+    box-shadow: 2px 1px 30px 6px rgba(172, 158, 34, 0);
+    padding: 20px 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 100px;
+    grid-gap: 15px;
+}
+.screen{
+    background-color: rgb(41, 40, 40);
+    border-radius: 10px;
+    color: rgb(14, 36, 238);
+    padding: 15px;
+    grid-column: 1/5;
+}
+.screen > input{
+    background: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+    border: none ;
+    padding: 0;
+    outline: inherit;
+    font-size: 50px;
+    width: 100%;
+}
+.btn-cal{
+    background-color: white;
+    height: 100%;
+    width: 85%;
+}
+.btn-cal-radius{
+    border-radius: 15px;
+}
+.btn-cal > input{
+    border: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    color:  black;
+    font-size: 25px;
+}
+.btn-cal > .equal{
+    background-color: yellow;
+}
+.btn-cal > .clean{
+    background-color: rgb(38, 207, 38);
+}
+.btn-cal > .DEL{
+    background-color:rgb(38, 207, 38);
+}
+.btn-cal > .porcentaje{
+    background-color: rgb(38, 207, 38);
+}
+.btn-cal > .raiz{
+    background-color: rgb(38, 207, 38);
+}
+.btn-cal :hover{
+    transition-duration: 0.4s;
+    background-color: rgb(230, 154, 13);
+}
+.btn-clear :hover{
+    transition-duration: 0.4s;
+    background-color: rgb(197, 88, 69);
+    color: white;
+}
+.btn-equal :hover{
+    transition-duration: 0.4s;
+    background-color: rgb(13, 230, 13);
+    color: white;
+}
+
