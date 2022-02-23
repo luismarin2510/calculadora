@@ -9,8 +9,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-.content-main{
+}/* detalles del fondo de la calculadora */
+.content-main{  
     width: 380px;
     height: 420px;
     background-color: rgb(233, 16, 16);
@@ -29,12 +29,14 @@ body{
     padding: 15px;
     grid-column: 1/5;
 }
-.screen > input{
+/* detalles de la pantalla de la calculadora*/
+.screen > input{   
     background: none;
     color: white;
     height: 100%;
     width: 100%;
     border: none ;
+    text-align: right;  
     padding: 0;
     outline: inherit;
     font-size: 50px;
@@ -61,15 +63,21 @@ body{
     background-color: yellow;
 }
 .btn-cal > .clean{
+    transition-duration: 0.4s;
     background-color: rgb(38, 207, 38);
 }
 .btn-cal > .DEL{
+    transition-duration: 0.4s;
     background-color:rgb(38, 207, 38);
+    font-size: 28px;
+    font-weight:200;
 }
 .btn-cal > .porcentaje{
+    transition-duration: 0.4s;
     background-color: rgb(38, 207, 38);
 }
 .btn-cal > .raiz{
+    transition-duration: 0.4s;
     background-color: rgb(38, 207, 38);
 }
 .btn-cal :hover{
